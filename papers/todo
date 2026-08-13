@@ -1,0 +1,7 @@
+| Method                         | Paper Title & Authors                                                                                                  | Year | Approx. Citations  |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ---- | ------------------ |
+| Circuit Breakers (RR)          | Improving Alignment and Robustness with Circuit Breakers (Zou et al.) arxiv+1                                          | 2024 | 450+ promptlayer​  |
+| G-Guard                        | An attention-aware GNN-based input defender against multi-turn jailbreaks (arXiv:2507.07146) arxiv​                    | 2025 | 120+ kukarella​    |
+| BIID                           | Bidirectional Intention Inference Enhances LLMs' Defense (arXiv:2509.22732) arxiv​                                     | 2025 | 85+  emergentmind​ |
+| Neural Barrier Functions (NBF) | Steering Dialogue Dynamics for Robustness against Multi-turn Jailbreaking Attacks (arXiv:2503.00187) ar5iv.labs.arxiv​ | 2025 | 70+  arxiv​        |
+| FragGuard                      | Multi-turn Jailbreaking Attack in Multi-Modal Large Language Models (arXiv:2601.05339) arxiv​                          | 2026 | 40+  arxiv​        |

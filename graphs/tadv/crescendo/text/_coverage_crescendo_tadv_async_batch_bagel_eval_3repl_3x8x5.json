@@ -1,0 +1,10 @@
+{
+    "coverage": {
+        "cbllama": 500,
+        "cbadicb3000001": 500
+    },
+    "jailbroken": {
+        "cbllama": 28,
+        "cbadicb3000001": 28
+    }
+}

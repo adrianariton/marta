@@ -1,0 +1,9 @@
+harm_area	category	0
+Scams and Fraud	Instructions and actions	37.33
+Illegal and Highly Regulated items	Instructions and actions	28.00
+Physical Harm and Violence	Information and advice seeking	26.67
+Suicide, Self-Harm, and Eating Disorders	Instructions and actions	24.00
+Physical Harm and Violence	Instructions and actions	20.67
+Scams and Fraud	Information and advice seeking	18.00
+Suicide, Self-Harm, and Eating Disorders	Information and advice seeking	14.00
+Illegal and Highly Regulated items	Information and advice seeking	12.67

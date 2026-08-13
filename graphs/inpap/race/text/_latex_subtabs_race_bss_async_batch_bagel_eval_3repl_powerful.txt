@@ -1,0 +1,20 @@
+
+% --- Comprehensive Subtable: race ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{race Attack on SimpleSafety}
+\begin{tabular}{lcccccccc}
+\bf CATEGORY & \bf CBL & \bf DER & \bf DOR & \bf LLA & \bf GUR & \bf GUQ & \bf NEMR & \bf NEMQ \\
+\hline \\
+Suici. Self-. \& Eatin. Disor.,\\Infor. \& Advic. Seeki. & \textbf{6.0\%} & 16.0\% & \textbf{8.0\%} & 16.0\% & 19.6\% & 33.3\% & 50.0\% & 20.0\% \\
+Physi. Harm \& Viole.,\\Infor. \& Advic. Seeki. & \textbf{6.0\%} & 34.0\% & 18.0\% & 27.3\% & 20.6\% & 100.0\% & -- & -- \\
+Suici. Self-. \& Eatin. Disor.,\\Instr. \& Actio. & \textbf{14.0\%} & 24.0\% & 16.0\% & \textbf{14.0\%} & 55.0\% & 44.4\% & -- & -- \\
+Physi. Harm \& Viole.,\\Instr. \& Actio. & \textbf{0.0\%} & 28.0\% & \textbf{10.0\%} & 33.3\% & \textbf{8.0\%} & 28.6\% & -- & -- \\
+Illeg. \& Highl. Regul. Items,\\Instr. \& Actio. & 20.0\% & 26.0\% & \textbf{14.0\%} & 20.0\% & \textbf{13.9\%} & \textbf{3.6\%} & -- & -- \\
+Illeg. \& Highl. Regul. Items,\\Infor. \& Advic. Seeki. & \textbf{0.0\%} & \textbf{12.0\%} & \textbf{2.0\%} & 20.0\% & \textbf{10.5\%} & \textbf{5.3\%} & -- & -- \\
+Scams \& Fraud,\\Instr. \& Actio. & \textbf{10.0\%} & 32.0\% & 28.0\% & 20.0\% & 58.8\% & -- & -- & -- \\
+Scams \& Fraud,\\Infor. \& Advic. Seeki. & \textbf{10.0\%} & 18.0\% & \textbf{8.0\%} & 20.0\% & 66.7\% & -- & -- & -- \\
+\\ \hline \\
+\bf Average & \bf 7.6\% & \bf 23.8\% & \bf 13.0\% & \bf 19.9\% & \bf 27.9\% & \bf 22.9\% & \bf 50.0\% & \bf 20.0\% \\
+\end{tabular}
+\end{subtable}

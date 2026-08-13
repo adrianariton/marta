@@ -1,0 +1,210 @@
+
+% --- Fitd vs Cbllama (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Cbllama}
+\label{tab:ss_fitd_cbllama}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 13.3\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 12.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 8.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 2.7\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 1.3\% \\
+Physical Harm And Violence & Instructions And Actions & 1.3\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 0.7\% \\
+Scams And Fraud & Information And Advice Seeking & 0.7\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Dertains (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Dertains}
+\label{tab:ss_fitd_dertains}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 56.7\% \\
+Physical Harm And Violence & Information And Advice Seeking & 48.7\% \\
+Physical Harm And Violence & Instructions And Actions & 33.3\% \\
+Scams And Fraud & Information And Advice Seeking & 32.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 30.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 29.3\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 18.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 14.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Door (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Door}
+\label{tab:ss_fitd_door}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 40.7\% \\
+Physical Harm And Violence & Information And Advice Seeking & 22.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 21.3\% \\
+Scams And Fraud & Information And Advice Seeking & 20.7\% \\
+Physical Harm And Violence & Instructions And Actions & 18.7\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 14.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 13.3\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 12.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Llamainstruct (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Llamainstruct}
+\label{tab:ss_fitd_llamainstruct}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 56.7\% \\
+Physical Harm And Violence & Information And Advice Seeking & 44.0\% \\
+Scams And Fraud & Information And Advice Seeking & 40.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 34.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 33.3\% \\
+Physical Harm And Violence & Instructions And Actions & 31.3\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 27.3\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 13.3\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Guardr (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Guardr}
+\label{tab:ss_fitd_guardr}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 23.3\% \\
+Scams And Fraud & Instructions And Actions & 18.7\% \\
+Physical Harm And Violence & Information And Advice Seeking & 14.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 10.7\% \\
+Physical Harm And Violence & Instructions And Actions & 10.0\% \\
+Scams And Fraud & Information And Advice Seeking & 9.3\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 4.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 3.3\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Guardq (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Guardq}
+\label{tab:ss_fitd_guardq}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Physical Harm And Violence & Information And Advice Seeking & 27.3\% \\
+Scams And Fraud & Instructions And Actions & 22.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 19.3\% \\
+Physical Harm And Violence & Instructions And Actions & 15.3\% \\
+Scams And Fraud & Information And Advice Seeking & 12.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 9.3\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 7.3\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 6.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Guardrnoh (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Guardrnoh}
+\label{tab:ss_fitd_guardrnoh}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Illegal And Highly Regulated Items & Information And Advice Seeking & 0.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 0.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 0.0\% \\
+Physical Harm And Violence & Instructions And Actions & 0.0\% \\
+Scams And Fraud & Information And Advice Seeking & 0.0\% \\
+Scams And Fraud & Instructions And Actions & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 0.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Guardqnoh (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Guardqnoh}
+\label{tab:ss_fitd_guardqnoh}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Illegal And Highly Regulated Items & Information And Advice Seeking & 0.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 0.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 0.0\% \\
+Physical Harm And Violence & Instructions And Actions & 0.0\% \\
+Scams And Fraud & Information And Advice Seeking & 0.0\% \\
+Scams And Fraud & Instructions And Actions & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 0.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Nemor (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Nemor}
+\label{tab:ss_fitd_nemor}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Physical Harm And Violence & Information And Advice Seeking & 22.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 22.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 22.0\% \\
+Scams And Fraud & Instructions And Actions & 17.3\% \\
+Scams And Fraud & Information And Advice Seeking & 14.7\% \\
+Physical Harm And Violence & Instructions And Actions & 9.3\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 6.7\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 3.3\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Fitd vs Nemoq (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Fitd vs Nemoq}
+\label{tab:ss_fitd_nemoq}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 34.7\% \\
+Physical Harm And Violence & Information And Advice Seeking & 22.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 16.7\% \\
+Scams And Fraud & Instructions And Actions & 15.3\% \\
+Physical Harm And Violence & Instructions And Actions & 8.7\% \\
+Scams And Fraud & Information And Advice Seeking & 8.7\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 6.7\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 4.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

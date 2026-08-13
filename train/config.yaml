@@ -1,0 +1,62 @@
+# config.yaml
+# ---------------------------------------------------------------------------
+# Nemotron Safety Guard fine-tuning config
+# Model: nvidia/Llama-3.1-Nemotron-Safety-Guard-8B-v3
+# ---------------------------------------------------------------------------
+
+model:
+  name: "nvidia/Llama-3.1-Nemotron-Safety-Guard-8B-v3"
+
+data:
+  train_parquet:        "./train/train.parquet"
+  val_parquet:          "./train/val.parquet"
+  conversation_col:     "conversation_format"
+  response_col:         "response"
+  harmful_col:          "harmful"
+  goal_col:             "goal"
+  query_response_ratio: 0.5
+  ultrachat_retain_n:   2000       # Reduced: too many safe samples hurt unsafe recall
+  ultrachat_seed:       42
+  # Oversample harmful conversations N times to balance classes (~1:8 unsafe:safe ratio)
+  harmful_oversample_factor: 2
+
+training:
+  output_dir:                    "./checkpoints/nemotron-guard-ft-weighted-2-1p5"
+  seed:                          42
+  per_device_train_batch_size:   4
+  per_device_eval_batch_size:    4
+  gradient_accumulation_steps:   8     # effective batch = 4 * 3 GPUs * 8 = 96
+  num_train_epochs:              3
+  learning_rate:                 2.0e-5
+  lr_scheduler_type:             "cosine"
+  warmup_ratio:                  0.03
+  weight_decay:                  0.01
+  bf16:                          true
+  tf32:                          true
+  gradient_checkpointing:        true
+  max_grad_norm:                 1.0
+  max_seq_length:                4096
+  logging_steps:                 20
+  eval_strategy:                 "steps"
+  eval_steps:                    200
+  save_strategy:                 "steps"
+  save_steps:                    200
+  save_total_limit:              3
+  load_best_model_at_end:        true
+  metric_for_best_model:         "eval_loss"
+  greater_is_better:             false
+  dataloader_num_workers:        4
+  # Weight for unsafe token predictions — compensates for class imbalance (~1:8)
+  class_weight_unsafe:           1.5
+
+lora:
+  # Matching nvidia's own LoRA config from the model card:
+  # r=8, alpha=32, only q_proj and v_proj
+  use_lora:       true
+  r:              8
+  lora_alpha:     32
+  lora_dropout:   0.05
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+  bias: "none"

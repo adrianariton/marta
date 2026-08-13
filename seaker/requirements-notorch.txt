@@ -1,0 +1,36 @@
+google-generativeai==0.8.5
+google-genai==1.47.0
+
+# Transformers and HuggingFace ecosystem
+huggingface-hub==0.36.0
+transformers==4.57.1
+accelerate==1.10.1
+pillow==12.0.0
+sentence_transformers
+
+together
+
+# numpy for numerical operations
+numpy<2
+
+# transformer reinforcement learning library
+trl==0.25.1
+peft==0.17.1
+
+spacy
+textgrad
+
+scikit-learn
+
+wordfreq
+
+nltk
+
+anthropic
+
+matplotlib
+# bitsandbytes>=0.41.0
+flask
+fastapi 
+uvicorn
+pydantic

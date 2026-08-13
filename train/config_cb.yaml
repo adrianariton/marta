@@ -1,0 +1,72 @@
+# config_cb.yaml
+# ---------------------------------------------------------------------------
+# Circuit Breaker (RR) — faithful to GraySwanAI/circuit-breakers
+# Model: GraySwanAI/Llama-3-8B-Instruct-RR
+# ---------------------------------------------------------------------------
+
+model:
+  name: "GraySwanAI/Llama-3-8B-Instruct-RR"
+  frozen_name: "meta-llama/Meta-Llama-3-8B-Instruct"
+
+data:
+  train_parquet:    "./train/train.parquet"
+  eval_parquet:     "./train/val.parquet"
+  conversation_col: "conversation_format"
+  response_col:     "response"
+  harmful_col:      "harmful"
+  k_last_turns:     2
+  ultrachat_retain_n: 5000
+
+training:
+  output_dir: "./checkpoints/cb-ft-grayswan-lin-wrt-llama-wrr-cb-2000-001-rep-2"
+  seed:       42
+
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 2
+
+  # GraySwanAI uses max_steps=300 with progress = step/300
+  max_steps: 2000
+
+  learning_rate:   1.0e-4
+  weight_decay:    0.01
+  warmup_ratio:    0.03
+  lr_scheduler_type: "constant"
+  max_grad_norm:   1.0
+
+  # RR alpha — paper uses 10.0 for Llama-3
+  alpha: 10.0
+
+  # Target layers for representation extraction (paper: 10, 20 for Llama-3-8B)
+  repr_layers: [10, 20]
+
+  transform_all_layers: false
+
+  # Truncate model after max(repr_layers) to save VRAM — GraySwanAI trick
+  full_layers: false
+
+  bf16:                 true
+  tf32:                 true
+  gradient_checkpointing: true
+  max_seq_length:       2048   # 512 request + 512 response
+
+  logging_steps:    10
+  save_steps:       250
+  eval_steps:       500
+  save_total_limit: 3
+
+lora:
+  # GraySwanAI uses r=16, alpha=16 on ALL projection layers
+  r:              16
+  lora_alpha:     16
+  lora_dropout:   0.05
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+  bias: "none"
+
+  #001, but keep retain from name

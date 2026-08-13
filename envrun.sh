@@ -1,0 +1,1 @@
+sbatch -A student -p dgxa100        --gres=gpu:1        --time=02:00:00        --cpus-per-task=5        --mem-per-cpu=16G       apptainer-exec.sh 

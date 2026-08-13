@@ -1,0 +1,113 @@
+# config/ppo_multiturn.yaml
+#
+# verl PPO configuration for offline multi-turn RL
+# with Mistral-7B-Instruct and per-turn LLM-evaluated rewards.
+#
+# Key choices annotated with [REASON] comments.
+
+# ---------------------------------------------------------------------------
+# Data
+# ---------------------------------------------------------------------------
+data:
+  train_files:
+    - data/train.parquet        # output of prepare_data.py
+  val_files: []                 # optional: data/val.parquet
+  max_length: 4096              # must match prepare_data.py --max_len
+
+# ---------------------------------------------------------------------------
+# Model
+# ---------------------------------------------------------------------------
+model:
+  path: mistralai/Mistral-7B-Instruct-v0.3
+
+# ---------------------------------------------------------------------------
+# Algorithm
+# ---------------------------------------------------------------------------
+algorithm:
+  gamma: 0.9          # [REASON] Low γ: reduces length-reward correlation bias.
+                      # Shorter harmful conversations get less bleedback from
+                      # early turns. Don't use 0.99 here.
+  lam: 0.95           # [REASON] High λ: smooth noisy per-turn LLM rewards by
+                      # leaning on long-run return rather than immediate signal.
+  adv_estimator: gae  # Generalized Advantage Estimation (best for per-turn rewards)
+  kl_penalty: kl      # Token-level KL penalty to keep policy close to reference
+  kl_ctrl:
+    type: adaptive
+    kl_coef: 0.1      # Starting KL coefficient — adaptive will tune it
+    target_kl: 0.05   # Target KL divergence
+
+# ---------------------------------------------------------------------------
+# Actor (policy model)
+# ---------------------------------------------------------------------------
+actor_rollout_ref:
+  model:
+    path: mistralai/Mistral-7B-Instruct-v0.3
+    use_remove_padding: true   # efficient packing for variable-length sequences
+  actor:
+    strategy: fsdp             # use FSDP for sharding (works on single node too)
+    ppo_mini_batch_size: 64
+    ppo_micro_batch_size: 4
+    clip_ratio: 0.2            # PPO clip epsilon
+    entropy_coeff: 0.001       # small entropy bonus
+    optim:
+      lr: 1.0e-6               # [REASON] Conservative LR for offline RL (no fresh rollouts)
+      weight_decay: 0.01
+      lr_warmup_steps: 50
+    fsdp_config:
+      param_offload: false
+      grad_offload: false
+      optimizer_offload: false
+
+# ---------------------------------------------------------------------------
+# Critic (value model)
+# ---------------------------------------------------------------------------
+critic:
+  model:
+    path: mistralai/Mistral-7B-Instruct-v0.3  # same backbone, separate head
+    use_remove_padding: true
+  strategy: fsdp
+  ppo_mini_batch_size: 64
+  ppo_micro_batch_size: 4
+  cliprange_value: 0.5
+  optim:
+    lr: 5.0e-6                 # Critic can learn a bit faster than actor
+    weight_decay: 0.01
+    lr_warmup_steps: 50
+  fsdp_config:
+    param_offload: false
+    grad_offload: false
+    optimizer_offload: false
+
+# ---------------------------------------------------------------------------
+# Reward model
+# ---------------------------------------------------------------------------
+reward_model:
+  num_examine: 2               # Log 2 sample reward breakdowns per batch (for debugging)
+
+# ---------------------------------------------------------------------------
+# Trainer
+# ---------------------------------------------------------------------------
+trainer:
+  project_name: multiturn_ppo
+  experiment_name: mistral_offline_per_turn
+  total_epochs: 3
+  train_batch_size: 32
+  save_freq: 200
+  n_gpus_per_node: 4
+  nnodes: 1
+  default_hdfs_dir: null
+  default_local_dir: checkpoints/mistral_offline_per_turn  # model saved here
+  logger:
+    - console
+    - wandb
+
+# ---------------------------------------------------------------------------
+# Notes on tuning
+# ---------------------------------------------------------------------------
+# 1. If training is unstable (loss spikes), reduce actor lr to 5e-7
+# 2. If advantages are all near zero, check that loss_mask is being applied
+#    correctly — run prepare_data.py with --debug flag to inspect a few samples
+# 3. Erosion weight (EROSION_WEIGHT in prepare_data.py) can be increased to 2.0
+#    if the model is learning to game proximity/cooperation while staying erosive
+# 4. If harmful conversations dominate the loss, add stratified sampling in
+#    MultiTurnOfflineDataset to balance by conversation outcome

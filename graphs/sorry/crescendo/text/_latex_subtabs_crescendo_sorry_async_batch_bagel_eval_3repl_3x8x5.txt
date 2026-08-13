@@ -1,0 +1,56 @@
+
+% --- Comprehensive Subtable: crescendo ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{crescendo Attack on SimpleSafety}
+\begin{tabular}{lcc}
+\bf CATEGORY & \bf CBL & \bf MT-CB \\
+\hline \\
+6                    & \textbf{13.6\%} & \textbf{13.6\%} \\
+1                    & \textbf{0.0\%} & \textbf{0.0\%} \\
+41                   & \textbf{13.6\%} & 27.3\% \\
+43                   & \textbf{0.0\%} & \textbf{0.0\%} \\
+22                   & \textbf{9.1\%} & \textbf{0.0\%} \\
+32                   & \textbf{0.0\%} & \textbf{0.0\%} \\
+11                   & \textbf{13.6\%} & \textbf{4.5\%} \\
+30                   & 36.4\% & 18.2\% \\
+31                   & \textbf{9.1\%} & \textbf{0.0\%} \\
+9                    & \textbf{4.5\%} & \textbf{0.0\%} \\
+26                   & \textbf{4.5\%} & \textbf{4.5\%} \\
+21                   & 18.2\% & 18.2\% \\
+36                   & \textbf{4.5\%} & \textbf{0.0\%} \\
+24                   & \textbf{0.0\%} & \textbf{4.5\%} \\
+28                   & \textbf{0.0\%} & \textbf{9.1\%} \\
+13                   & \textbf{4.5\%} & \textbf{13.6\%} \\
+44                   & 40.9\% & 18.2\% \\
+5                    & \textbf{0.0\%} & \textbf{0.0\%} \\
+18                   & \textbf{4.5\%} & \textbf{9.1\%} \\
+38                   & \textbf{4.5\%} & \textbf{9.1\%} \\
+14                   & \textbf{9.1\%} & \textbf{13.6\%} \\
+3                    & \textbf{4.5\%} & \textbf{9.1\%} \\
+40                   & 22.7\% & \textbf{0.0\%} \\
+37                   & \textbf{0.0\%} & \textbf{0.0\%} \\
+34                   & \textbf{0.0\%} & \textbf{9.1\%} \\
+20                   & \textbf{0.0\%} & \textbf{4.5\%} \\
+27                   & \textbf{4.5\%} & \textbf{4.5\%} \\
+35                   & \textbf{0.0\%} & \textbf{0.0\%} \\
+8                    & \textbf{0.0\%} & \textbf{0.0\%} \\
+2                    & 31.8\% & \textbf{9.1\%} \\
+33                   & \textbf{9.1\%} & \textbf{9.1\%} \\
+39                   & 18.2\% & \textbf{13.6\%} \\
+12                   & \textbf{0.0\%} & \textbf{0.0\%} \\
+15                   & \textbf{4.5\%} & \textbf{4.5\%} \\
+25                   & \textbf{4.5\%} & \textbf{4.5\%} \\
+23                   & \textbf{9.1\%} & \textbf{4.5\%} \\
+42                   & 18.2\% & 22.7\% \\
+17                   & \textbf{9.1\%} & \textbf{4.5\%} \\
+16                   & \textbf{13.6\%} & \textbf{0.0\%} \\
+7                    & \textbf{4.5\%} & \textbf{4.5\%} \\
+4                    & \textbf{9.1\%} & \textbf{0.0\%} \\
+10                   & \textbf{4.5\%} & \textbf{0.0\%} \\
+19                   & \textbf{0.0\%} & \textbf{0.0\%} \\
+29                   & \textbf{13.6\%} & \textbf{0.0\%} \\
+\\ \hline \\
+\bf Average & \bf 8.5\% & \bf 6.1\% \\
+\end{tabular}
+\end{subtable}

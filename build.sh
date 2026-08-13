@@ -1,0 +1,1 @@
+apptainer build --fakeroot env.sif env.def 2>&1 | tee build.log

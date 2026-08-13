@@ -1,0 +1,18 @@
+{
+    "coverage": {
+        "cbllama": 1200,
+        "dertains": 1200,
+        "door": 1200,
+        "guardr": 1200,
+        "guardq": 1200,
+        "nemoq": 682
+    },
+    "jailbroken": {
+        "cbllama": 60,
+        "dertains": 394,
+        "door": 245,
+        "guardr": 140,
+        "guardq": 178,
+        "nemoq": 175
+    }
+}

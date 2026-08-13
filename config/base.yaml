@@ -1,0 +1,21 @@
+attacker:
+  agent:
+    StatelessSelfHostedVLLMAgent:
+      host: dgxa100-ncit-wn03.grid.pub.ro
+      model: /models/Qwen2.5-32B-Instruct
+      port: 8002
+  
+
+evaluator:
+  agent:
+    StatelessSelfHostedVLLMAgent:
+      host: dgxh100-precis-wn01.grid.pub.ro
+      model: /models/bagel-34b-v0.2
+      temperature: 0.7
+      max_tokens: 1024
+      stop: ["<|im_end|>", "<|endoftext|>", "User:", "Assistant:"]
+      presence_penalty: 0.0
+      repetition_penalty: 1.1
+      frequency_penalty: 0.0
+      top_p: 0.9
+      structured_outputs: {"json": PEC7}

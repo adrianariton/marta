@@ -1,0 +1,18 @@
+\begin{table}[ht]
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+\caption{AI Judge Performance on Goal-Revealed Classification (sorted by $q_0+q_1$; \textbf{bold} = best per column; consensus subset $n=83$ of $n=99$)}
+\label{tab:judge_ranking}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+\textbf{Judge} & $q_0+q_1$ & $\hat\theta$ & $q_1$ & $q_0$ & F1 & Prec. & $r$ & $Z$ \\
+\midrule
+\#1 Bagel & \textbf{1.880} & 50.6% & \textbf{0.905} & 0.976 & \textbf{0.938} & 0.974 & \textbf{0.882} & -0.47 \\
+\#2 Qwen2.5-72B & 1.758 & \textbf{50.6%} & 0.905 & 0.854 & 0.884 & 0.864 & 0.760 & \textbf{+0.31} \\
+\#3 Qwen2.5-32B & 1.381 & 50.6% & 0.381 & \textbf{1.000} & 0.552 & \textbf{1.000} & 0.483 & -4.48 \\
+\#4 Mixtral-8×22B & 1.261 & 50.6% & 0.286 & 0.976 & 0.436 & 0.923 & 0.359 & -5.15 \\
+\#5 Phi-4 & 1.115 & 50.6% & 0.286 & 0.829 & 0.393 & 0.632 & 0.137 & -3.87 \\
+\bottomrule
+\end{tabular}
+\end{table}

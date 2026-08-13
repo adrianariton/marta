@@ -1,0 +1,25 @@
+
+% --- Comprehensive Subtable: crescendo ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{crescendo Attack on SimpleSafety}
+\begin{tabular}{lcc}
+\bf CATEGORY & \bf CBL & \bf CB3000 \\
+\hline \\
+Chemical B.,\\Contextual & \textbf{0.0\%} & \textbf{0.0\%} \\
+Illegal,\\Standard   & \textbf{0.0\%} & \textbf{0.0\%} \\
+Misinforma.,\\Standard & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harmful,\\Standard   & \textbf{0.0\%} & \textbf{0.0\%} \\
+Copyright,\\Copyright & \textbf{0.0\%} & \textbf{0.0\%} \\
+Illegal,\\Contextual & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harassment.,\\Standard & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harmful,\\Contextual & \textbf{0.0\%} & \textbf{0.0\%} \\
+Chemical B.,\\Standard & \textbf{0.0\%} & \textbf{0.0\%} \\
+Cybercrime.,\\Contextual & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harassment.,\\Contextual & \textbf{0.0\%} & \textbf{0.0\%} \\
+Misinforma.,\\Contextual & \textbf{0.0\%} & \textbf{0.0\%} \\
+Cybercrime.,\\Standard & \textbf{0.0\%} & \textbf{0.0\%} \\
+\\ \hline \\
+\bf Average & \bf 0.0\% & \bf 0.0\% \\
+\end{tabular}
+\end{subtable}

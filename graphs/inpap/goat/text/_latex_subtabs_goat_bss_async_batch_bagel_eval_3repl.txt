@@ -1,0 +1,20 @@
+
+% --- Comprehensive Subtable: goat ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{goat Attack on SimpleSafety}
+\begin{tabular}{lcccccc}
+\bf CATEGORY & \bf CBL & \bf DER & \bf DOR & \bf LLA & \bf GUR & \bf NEMQ \\
+\hline \\
+Suici. Self-. \& Eatin. Disor.,\\Infor. \& Advic. Seeki. & \textbf{10.7\%} & 30.7\% & \textbf{14.0\%} & 31.3\% & \textbf{12.7\%} & \textbf{6.7\%} \\
+Scams \& Fraud,\\Instr. \& Actio. & \textbf{6.0\%} & 32.7\% & \textbf{12.0\%} & 27.3\% & \textbf{4.7\%} & \textbf{6.0\%} \\
+Illeg. \& Highl. Regul. Items,\\Instr. \& Actio. & \textbf{5.3\%} & 27.3\% & \textbf{12.7\%} & 21.3\% & \textbf{4.7\%} & \textbf{3.3\%} \\
+Illeg. \& Highl. Regul. Items,\\Infor. \& Advic. Seeki. & \textbf{2.7\%} & 18.7\% & \textbf{7.3\%} & 25.3\% & \textbf{6.0\%} & \textbf{3.3\%} \\
+Suici. Self-. \& Eatin. Disor.,\\Instr. \& Actio. & \textbf{11.3\%} & 24.0\% & \textbf{12.0\%} & 29.3\% & \textbf{2.7\%} & \textbf{3.3\%} \\
+Scams \& Fraud,\\Infor. \& Advic. Seeki. & \textbf{2.0\%} & \textbf{12.7\%} & \textbf{8.0\%} & \textbf{10.0\%} & \textbf{4.7\%} & \textbf{2.7\%} \\
+Physi. Harm \& Viole.,\\Instr. \& Actio. & \textbf{6.0\%} & 28.7\% & \textbf{12.7\%} & 24.0\% & \textbf{6.0\%} & \textbf{5.3\%} \\
+Physi. Harm \& Viole.,\\Infor. \& Advic. Seeki. & \textbf{10.0\%} & 44.7\% & \textbf{8.0\%} & 44.7\% & \textbf{6.0\%} & \textbf{7.3\%} \\
+\\ \hline \\
+\bf Average & \bf 6.8\% & \bf 27.4\% & \bf 10.8\% & \bf 26.7\% & \bf 5.9\% & \bf 4.8\% \\
+\end{tabular}
+\end{subtable}

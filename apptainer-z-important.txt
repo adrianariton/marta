@@ -1,0 +1,4 @@
+apptainer-benchmark-crescendo-async-batch-mare-xstest.sh
+apptainer-benchmark-goat-mare-xstest.sh
+apptainer-benchmark-fitd-async-batch-mare-xstest.sh
+apptainer-benchmark-race-mare-script-xstest.sh

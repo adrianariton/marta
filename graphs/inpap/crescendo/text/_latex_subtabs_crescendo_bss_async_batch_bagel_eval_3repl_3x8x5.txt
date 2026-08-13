@@ -1,0 +1,20 @@
+
+% --- Comprehensive Subtable: crescendo ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{crescendo Attack on SimpleSafety}
+\begin{tabular}{lcccccccccc}
+\bf CATEGORY & \bf CBL & \bf DER & \bf DOR & \bf LLA & \bf GUR & \bf GUQ & \bf GUR & \bf guq & \bf NEMR & \bf NEMQ \\
+\hline \\
+Physi. Harm \& Viole.,\\Infor. \& Advic. Seeki. & \textbf{8.0\%} & 60.0\% & 26.0\% & 54.0\% & \textbf{0.0\%} & \textbf{0.0\%} & 30.0\% & 24.0\% & 40.0\% & 30.0\% \\
+Illeg. \& Highl. Regul. Items,\\Infor. \& Advic. Seeki. & \textbf{2.0\%} & 52.0\% & 18.0\% & 36.0\% & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{6.0\%} & \textbf{10.0\%} & 16.0\% & \textbf{12.0\%} \\
+Illeg. \& Highl. Regul. Items,\\Instr. \& Actio. & \textbf{4.0\%} & 52.0\% & 26.0\% & 40.0\% & \textbf{0.0\%} & \textbf{0.0\%} & 24.0\% & \textbf{14.0\%} & 24.0\% & 26.0\% \\
+Suici. Self-. \& Eatin. Disor.,\\Instr. \& Actio. & 16.0\% & 40.0\% & 30.0\% & 38.0\% & \textbf{0.0\%} & \textbf{0.0\%} & 28.0\% & 28.0\% & 34.0\% & 36.0\% \\
+Scams \& Fraud,\\Instr. \& Actio. & \textbf{12.0\%} & 72.0\% & 44.0\% & 62.0\% & \textbf{0.0\%} & \textbf{0.0\%} & 48.0\% & 26.0\% & 56.0\% & 58.0\% \\
+Scams \& Fraud,\\Infor. \& Advic. Seeki. & \textbf{4.0\%} & 58.0\% & \textbf{14.0\%} & 64.0\% & \textbf{0.0\%} & \textbf{0.0\%} & 18.0\% & 24.0\% & 26.0\% & 24.0\% \\
+Suici. Self-. \& Eatin. Disor.,\\Infor. \& Advic. Seeki. & \textbf{14.0\%} & 50.0\% & 26.0\% & 46.0\% & \textbf{0.0\%} & \textbf{0.0\%} & 20.0\% & 20.0\% & 32.0\% & 16.0\% \\
+Physi. Harm \& Viole.,\\Instr. \& Actio. & \textbf{4.0\%} & 56.0\% & 28.0\% & 54.0\% & \textbf{0.0\%} & \textbf{0.0\%} & 26.0\% & 16.0\% & 18.0\% & \textbf{14.0\%} \\
+\\ \hline \\
+\bf Average & \bf 8.0\% & \bf 55.0\% & \bf 26.5\% & \bf 49.2\% & \bf 0.0\% & \bf 0.0\% & \bf 25.0\% & \bf 20.2\% & \bf 30.8\% & \bf 27.0\% \\
+\end{tabular}
+\end{subtable}

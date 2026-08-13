@@ -1,0 +1,13 @@
+
+% --- Comprehensive Subtable: crescendo ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{crescendo Attack on SimpleSafety}
+\begin{tabular}{lcc}
+\bf CATEGORY & \bf CBL & \bf CB3000 \\
+\hline \\
+Cat                  & \textbf{1.1\%} & \textbf{1.1\%} \\
+\\ \hline \\
+\bf Average & \bf 1.1\% & \bf 1.1\% \\
+\end{tabular}
+\end{subtable}

@@ -1,0 +1,81 @@
+# PyTorch for CUDA 11.8 / Tesla P100
+torch==2.2.0+cu118
+torchvision==0.17.0+cu118
+torchaudio==2.2.0+cu118
+
+google-generativeai==0.8.5
+google-genai==1.47.0
+
+# Transformers and HuggingFace ecosystem
+huggingface-hub==0.36.0
+transformers==4.57.1
+accelerate==1.10.1
+pillow==12.0.0
+sentence_transformers
+
+
+together
+
+# numpy for numerical operations
+numpy<2
+
+# transformer reinforcement learning library
+trl==0.25.1
+
+# peft
+peft==0.17.1
+textgrad
+spacy
+
+scikit-learn
+
+wordfreq
+
+nltk
+anthropic
+
+matplotlib
+bitsandbytes
+
+verl
+pandas
+pyarrow
+sentencepiece
+
+
+# # PyTorch for CUDA 12.1 (A100 compatible)
+# torch==2.3.0+cu121
+# torchvision==0.18.0+cu121
+# torchaudio==2.3.0+cu121
+
+# google-generativeai==0.8.5
+# google-genai==1.47.0
+
+# # Transformers and HuggingFace ecosystem
+# huggingface-hub==0.24.0
+# transformers==4.44.0
+# accelerate==0.33.0
+# pillow==10.3.0
+# sentence_transformers
+
+# together
+
+# # numpy
+# numpy<2
+
+# # TRL + PEFT
+# trl==0.9.6
+# peft==0.12.0
+# bitsandbytes==0.43.1
+
+# textgrad
+# spacy
+# scikit-learn
+# wordfreq
+# nltk
+# anthropic
+# matplotlib
+# verl
+# pandas
+# pyarrow
+# sentencepiece

@@ -1,0 +1,20 @@
+
+% --- Comprehensive Subtable: fitd ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{fitd Attack on SimpleSafety}
+\begin{tabular}{lcccccc}
+\bf CATEGORY & \bf CBL & \bf DER & \bf DOR & \bf GUR & \bf GUQ & \bf NEMQ \\
+\hline \\
+Illeg. \& Highl. Regul. Items,\\Instr. \& Actio. & \textbf{0.7\%} & 18.0\% & \textbf{12.0\%} & \textbf{3.3\%} & \textbf{9.3\%} & \textbf{4.0\%} \\
+Scams \& Fraud,\\Instr. \& Actio. & \textbf{13.3\%} & 56.7\% & 40.7\% & 18.7\% & 22.0\% & 15.3\% \\
+Physi. Harm \& Viole.,\\Instr. \& Actio. & \textbf{1.3\%} & 33.3\% & 18.7\% & \textbf{10.0\%} & 15.3\% & \textbf{8.7\%} \\
+Physi. Harm \& Viole.,\\Infor. \& Advic. Seeki. & \textbf{8.0\%} & 48.7\% & 22.0\% & \textbf{14.0\%} & 27.3\% & 22.0\% \\
+Suici. Self-. \& Eatin. Disor.,\\Infor. \& Advic. Seeki. & \textbf{2.7\%} & \textbf{14.0\%} & \textbf{13.3\%} & \textbf{10.7\%} & \textbf{6.0\%} & 16.7\% \\
+Suici. Self-. \& Eatin. Disor.,\\Instr. \& Actio. & \textbf{12.0\%} & 30.0\% & 21.3\% & 23.3\% & 19.3\% & 34.7\% \\
+Illeg. \& Highl. Regul. Items,\\Infor. \& Advic. Seeki. & \textbf{1.3\%} & 29.3\% & \textbf{14.7\%} & \textbf{4.0\%} & \textbf{7.3\%} & \textbf{6.7\%} \\
+Scams \& Fraud,\\Infor. \& Advic. Seeki. & \textbf{0.7\%} & 32.7\% & 20.7\% & \textbf{9.3\%} & \textbf{12.0\%} & \textbf{8.7\%} \\
+\\ \hline \\
+\bf Average & \bf 5.0\% & \bf 32.8\% & \bf 20.4\% & \bf 11.7\% & \bf 14.8\% & \bf 14.6\% \\
+\end{tabular}
+\end{subtable}

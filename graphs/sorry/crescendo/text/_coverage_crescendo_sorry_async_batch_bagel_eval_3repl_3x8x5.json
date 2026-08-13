@@ -1,0 +1,25 @@
+{
+    "coverage": {
+        "cbllama": 844,
+        "cbadimixed2000": 820
+    },
+    "jailbroken": {
+        "cbllama": 82,
+        "cbadimixed2000": 59
+    },
+    "common_jailbroken": {
+        "cbllama": 68,
+        "cbadimixed2000": 53
+    },
+    "common_total": 712,
+    "jailbroken_by_k": [
+        {
+            "cbllama": 40,
+            "cbadimixed2000": 30
+        },
+        {
+            "cbllama": 42,
+            "cbadimixed2000": 29
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+
+% --- Comprehensive Subtable: crescendo ---
+\begin{subtable}{1.0\textwidth}
+\centering
+\caption{crescendo Attack on SimpleSafety}
+\begin{tabular}{lcccccccccc}
+\bf CATEGORY & \bf CBL & \bf DER & \bf DOR & \bf LLA & \bf GUR & \bf GUQ & \bf GUR & \bf guq & \bf NEMR & \bf NEMQ \\
+\hline \\
+Copyright,\\Copyright & \textbf{0.0\%} & \textbf{0.6\%} & \textbf{0.4\%} & \textbf{0.4\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Cybercrime.,\\Standard & \textbf{0.0\%} & \textbf{13.5\%} & \textbf{9.0\%} & \textbf{13.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.5\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Chemical B.,\\Contextual & \textbf{0.0\%} & \textbf{12.9\%} & \textbf{8.6\%} & \textbf{14.3\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harmful,\\Contextual & \textbf{0.0\%} & \textbf{0.0\%} & 20.0\% & 20.0\% & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Chemical B.,\\Standard & \textbf{1.4\%} & \textbf{10.7\%} & \textbf{9.3\%} & 15.7\% & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{3.6\%} & \textbf{2.1\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harassment.,\\Standard & \textbf{0.0\%} & \textbf{9.5\%} & \textbf{6.3\%} & \textbf{8.4\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{1.1\%} & \textbf{2.1\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Misinforma.,\\Standard & \textbf{0.6\%} & \textbf{8.8\%} & \textbf{8.8\%} & \textbf{8.8\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{1.8\%} & \textbf{3.5\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harassment.,\\Contextual & \textbf{0.0\%} & \textbf{10.0\%} & \textbf{3.3\%} & \textbf{13.3\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Illegal,\\Contextual & \textbf{0.0\%} & \textbf{5.7\%} & \textbf{5.7\%} & \textbf{8.6\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Cybercrime.,\\Contextual & \textbf{0.0\%} & 15.6\% & \textbf{8.1\%} & 15.6\% & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Illegal,\\Standard   & \textbf{0.3\%} & \textbf{9.0\%} & \textbf{2.4\%} & \textbf{10.3\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{2.1\%} & \textbf{2.1\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Harmful,\\Standard   & \textbf{0.0\%} & \textbf{12.4\%} & \textbf{5.7\%} & \textbf{12.4\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{3.8\%} & \textbf{3.8\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+Misinforma.,\\Contextual & \textbf{0.0\%} & \textbf{9.7\%} & \textbf{7.7\%} & \textbf{9.7\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{0.0\%} \\
+\\ \hline \\
+\bf Average & \bf 0.2\% & \bf 8.3\% & \bf 5.3\% & \bf 9.0\% & \bf 0.0\% & \bf 0.0\% & \bf 0.9\% & \bf 1.1\% & \bf 0.0\% & \bf 0.0\% \\
+\end{tabular}
+\end{subtable}

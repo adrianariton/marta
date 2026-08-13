@@ -1,0 +1,210 @@
+
+% --- Goat vs Cbllama (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Cbllama}
+\label{tab:ss_goat_cbllama}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 14.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 12.7\% \\
+Physical Harm And Violence & Information And Advice Seeking & 10.0\% \\
+Scams And Fraud & Instructions And Actions & 10.0\% \\
+Physical Harm And Violence & Instructions And Actions & 9.3\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 8.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 4.0\% \\
+Scams And Fraud & Information And Advice Seeking & 4.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Dertains (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Dertains}
+\label{tab:ss_goat_dertains}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Physical Harm And Violence & Information And Advice Seeking & 46.7\% \\
+Scams And Fraud & Instructions And Actions & 38.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 32.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 32.0\% \\
+Physical Harm And Violence & Instructions And Actions & 30.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 24.7\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 18.7\% \\
+Scams And Fraud & Information And Advice Seeking & 16.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Door (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Door}
+\label{tab:ss_goat_door}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 14.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 12.7\% \\
+Physical Harm And Violence & Instructions And Actions & 12.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 12.7\% \\
+Scams And Fraud & Instructions And Actions & 12.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 8.0\% \\
+Scams And Fraud & Information And Advice Seeking & 8.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 7.3\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Llamainstruct (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Llamainstruct}
+\label{tab:ss_goat_llamainstruct}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Physical Harm And Violence & Information And Advice Seeking & 52.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 34.7\% \\
+Scams And Fraud & Instructions And Actions & 32.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 31.3\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 29.3\% \\
+Physical Harm And Violence & Instructions And Actions & 29.3\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 27.3\% \\
+Scams And Fraud & Information And Advice Seeking & 15.3\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Guardr (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Guardr}
+\label{tab:ss_goat_guardr}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 12.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 8.7\% \\
+Physical Harm And Violence & Information And Advice Seeking & 6.7\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 6.0\% \\
+Physical Harm And Violence & Instructions And Actions & 6.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 4.7\% \\
+Scams And Fraud & Information And Advice Seeking & 4.7\% \\
+Scams And Fraud & Instructions And Actions & 4.7\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Guardq (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Guardq}
+\label{tab:ss_goat_guardq}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 6.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 5.3\% \\
+Physical Harm And Violence & Instructions And Actions & 4.7\% \\
+Scams And Fraud & Information And Advice Seeking & 4.7\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 4.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 4.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 3.3\% \\
+Scams And Fraud & Instructions And Actions & 2.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Guardrnoh (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Guardrnoh}
+\label{tab:ss_goat_guardrnoh}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Illegal And Highly Regulated Items & Information And Advice Seeking & 0.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 0.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 0.0\% \\
+Physical Harm And Violence & Instructions And Actions & 0.0\% \\
+Scams And Fraud & Information And Advice Seeking & 0.0\% \\
+Scams And Fraud & Instructions And Actions & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 0.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Guardqnoh (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Guardqnoh}
+\label{tab:ss_goat_guardqnoh}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Illegal And Highly Regulated Items & Information And Advice Seeking & 0.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 0.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 0.0\% \\
+Physical Harm And Violence & Instructions And Actions & 0.0\% \\
+Scams And Fraud & Information And Advice Seeking & 0.0\% \\
+Scams And Fraud & Instructions And Actions & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 0.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Nemor (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Nemor}
+\label{tab:ss_goat_nemor}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 14.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 12.7\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 12.0\% \\
+Physical Harm And Violence & Instructions And Actions & 6.7\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 4.7\% \\
+Scams And Fraud & Instructions And Actions & 4.7\% \\
+Scams And Fraud & Information And Advice Seeking & 4.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 2.7\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Goat vs Nemoq (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Goat vs Nemoq}
+\label{tab:ss_goat_nemoq}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Physical Harm And Violence & Information And Advice Seeking & 7.3\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 7.3\% \\
+Scams And Fraud & Instructions And Actions & 6.0\% \\
+Physical Harm And Violence & Instructions And Actions & 5.3\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 3.3\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 3.3\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 3.3\% \\
+Scams And Fraud & Information And Advice Seeking & 2.7\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

@@ -1,0 +1,3 @@
+target,conversation_outcome,mean,median,std,count
+CBL,Unharmful Ending,0.0,0.0,0.0,440
+MT-CB,Unharmful Ending,0.0,0.0,0.0,440

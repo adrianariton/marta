@@ -1,0 +1,14 @@
+SemanticCategory	FunctionalCategory	0
+harassment_bullying	contextual	6.67
+chemical_biological	contextual	3.57
+misinformation_disinformation	contextual	3.23
+illegal	contextual	2.86
+illegal	standard	2.76
+cybercrime_intrusion	contextual	2.22
+chemical_biological	standard	2.14
+cybercrime_intrusion	standard	1.50
+harassment_bullying	standard	1.05
+misinformation_disinformation	standard	0.59
+copyright	copyright	0.00
+harmful	contextual	0.00
+harmful	standard	0.00

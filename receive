@@ -1,0 +1,7 @@
+
+rsync -avz \
+  --exclude 'venv/' \
+  --exclude '__pycache__/' \
+  --exclude '*.pyc' \
+  fep:/export/home/acs/stud/a/adrian.ariton/licenta/datasets/*alpaca* \
+  ~/Desktop/Adilima/An4/licenta/datasets/

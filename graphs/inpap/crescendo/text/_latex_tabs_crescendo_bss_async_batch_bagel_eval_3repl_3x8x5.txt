@@ -1,0 +1,210 @@
+
+% --- Crescendo vs Llamainstruct (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Llamainstruct}
+\label{tab:ss_crescendo_llamainstruct}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Information And Advice Seeking & 64.0\% \\
+Scams And Fraud & Instructions And Actions & 62.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 54.0\% \\
+Physical Harm And Violence & Instructions And Actions & 54.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 46.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 40.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 38.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 36.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Dertains (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Dertains}
+\label{tab:ss_crescendo_dertains}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 72.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 60.0\% \\
+Scams And Fraud & Information And Advice Seeking & 58.0\% \\
+Physical Harm And Violence & Instructions And Actions & 56.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 52.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 52.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 50.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 40.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Door (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Door}
+\label{tab:ss_crescendo_door}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 44.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 30.0\% \\
+Physical Harm And Violence & Instructions And Actions & 28.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 26.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 26.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 26.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 18.0\% \\
+Scams And Fraud & Information And Advice Seeking & 14.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Guardr (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Guardr}
+\label{tab:ss_crescendo_guardr}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Illegal And Highly Regulated Items & Information And Advice Seeking & 0.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 0.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 0.0\% \\
+Physical Harm And Violence & Instructions And Actions & 0.0\% \\
+Scams And Fraud & Information And Advice Seeking & 0.0\% \\
+Scams And Fraud & Instructions And Actions & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 0.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Guardq (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Guardq}
+\label{tab:ss_crescendo_guardq}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Illegal And Highly Regulated Items & Information And Advice Seeking & 0.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 0.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 0.0\% \\
+Physical Harm And Violence & Instructions And Actions & 0.0\% \\
+Scams And Fraud & Information And Advice Seeking & 0.0\% \\
+Scams And Fraud & Instructions And Actions & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 0.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 0.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Guardrnoh (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Guardrnoh}
+\label{tab:ss_crescendo_guardrnoh}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 48.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 30.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 28.0\% \\
+Physical Harm And Violence & Instructions And Actions & 26.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 24.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 20.0\% \\
+Scams And Fraud & Information And Advice Seeking & 18.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 6.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Guardqnoh (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Guardqnoh}
+\label{tab:ss_crescendo_guardqnoh}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 28.0\% \\
+Scams And Fraud & Instructions And Actions & 26.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 24.0\% \\
+Scams And Fraud & Information And Advice Seeking & 24.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 20.0\% \\
+Physical Harm And Violence & Instructions And Actions & 16.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 14.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 10.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Nemor (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Nemor}
+\label{tab:ss_crescendo_nemor}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 56.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 40.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 34.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 32.0\% \\
+Scams And Fraud & Information And Advice Seeking & 26.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 24.0\% \\
+Physical Harm And Violence & Instructions And Actions & 18.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 16.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Nemoq (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Nemoq}
+\label{tab:ss_crescendo_nemoq}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Scams And Fraud & Instructions And Actions & 58.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 36.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 30.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 26.0\% \\
+Scams And Fraud & Information And Advice Seeking & 24.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 16.0\% \\
+Physical Harm And Violence & Instructions And Actions & 14.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 12.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+% --- Crescendo vs Cbllama (SimpleSafety) ---
+\begin{table}[t]
+\caption{Jailbreak Rate by Harm Area and Category: Crescendo vs Cbllama}
+\label{tab:ss_crescendo_cbllama}
+\begin{center}
+\begin{tabular}{llc}
+\bf HARM AREA & \bf CATEGORY & \bf SUCCESS RATE (\%) \\
+\hline
+Suicide, Self-Harm, And Eating Disorders & Instructions And Actions & 16.0\% \\
+Suicide, Self-Harm, And Eating Disorders & Information And Advice Seeking & 14.0\% \\
+Scams And Fraud & Instructions And Actions & 12.0\% \\
+Physical Harm And Violence & Information And Advice Seeking & 8.0\% \\
+Illegal And Highly Regulated Items & Instructions And Actions & 4.0\% \\
+Physical Harm And Violence & Instructions And Actions & 4.0\% \\
+Scams And Fraud & Information And Advice Seeking & 4.0\% \\
+Illegal And Highly Regulated Items & Information And Advice Seeking & 2.0\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
